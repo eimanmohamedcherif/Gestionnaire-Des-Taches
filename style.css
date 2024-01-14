@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  
+}
+header{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+ font-family: 'Montserrat', sans-serif;
+
+}
+main{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.containInput{
+  height: 20%;
+  width: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.containTaches{
+  height: 80%;
+  width: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.inputBtn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 50%;
+
+}
+.inputBtn input{
+  height: 30px;
+  width: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.inputBtn button{
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  border: none;
+}
+.inputBtn button:hover{
+  background-color: rgb(55, 73, 240);
+  border: none;
+}
+.trie{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.fait{
+  display: flex;
+  width: 200px;
+  gap: 10px;
+  
+}
+.fait h1{
+  font-size: 25px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+.AFaire{
+  display: flex;
+  width: 150px;
+  gap: 10px;
+
+}
+.AFaire h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+.Taches{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul{
+  width: 100%;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+
+}
+li{
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px ;
+  padding-right: 20px; 
+  font-size: 20px;
+}
+.ed{
+  border: none;
+  height: 30px;
+  width: 30px;
+  background-image: url('/trash-bin.png');
+  background-size: cover;
+}
+.ed:hover{
+  cursor: pointer;
+  transform: scale(1.1);  
+}
